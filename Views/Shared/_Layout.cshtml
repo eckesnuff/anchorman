@@ -1,0 +1,57 @@
+﻿
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" content="Solid solutions to the rescue">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' ; ">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<title>Anchorman</title>
+<style type="text/css">
+body{
+    background: #800020;
+    font-family: verdana;
+    text-transform:uppercase;
+    color:#fffacd;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+main{
+    width: 50vw;
+}
+h1 {
+    display:block;
+    font-size: 3.5vw;
+    margin:.3em 0;
+}
+span{
+    font-size: 14px;
+}
+svg{
+    width:40%;
+}
+@@media only screen and (max-device-width: 425px) {
+    main{
+        width: 100%;
+        margin-bottom:300px;
+    }
+    span{
+    font-size: 12px;
+    }
+    h1{
+        font-size: 5vw;
+    }
+
+}
+</style>
+</head>
+<body>
+@RenderBody()
+</body>
+</html>

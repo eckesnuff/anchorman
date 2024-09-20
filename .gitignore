@@ -1,0 +1,67 @@
+# .NET Core
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.nupkg
+*.snupkg
+*.log
+*.lock.json
+*.template.config/
+
+# NuGet
+*.nupkg
+**/project.lock.json
+**/project.fragment.lock.json
+artifacts/
+
+# Visual Studio
+.vscode/
+.vscode/*
+
+# Rider
+.idea/
+.idea/*
+
+# VS Code
+.vscode/
+.vscode/*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+
+# Docker
+**/[Dd]ockerfile
+**/[Dd]ocker-compose.*
+
+# Secrets
+secrets.json
+nuget.config
+appsettings.Development.json
